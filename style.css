@@ -1,0 +1,244 @@
+.desktop {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.desktop .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 697px;
+  height: 896px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  height: 896px;
+  background-color: #fdf7f0;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 697px;
+  height: 70px;
+  top: 826px;
+  left: 0;
+}
+
+.desktop .img {
+  height: 70px;
+  position: absolute;
+  width: 697px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .div {
+  height: 896px;
+  background-color: #fdf7f0;
+  position: absolute;
+  width: 697px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .image {
+  position: absolute;
+  width: 200px;
+  height: 334px;
+  top: 172px;
+  left: 37px;
+}
+
+.desktop .text-wrapper {
+  width: 398px;
+  top: 234px;
+  position: absolute;
+  left: 299px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 309px;
+  top: 283px;
+  left: 299px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .image-2 {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 7px;
+  left: 8px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-3 {
+  width: 312px;
+  top: 355px;
+  position: absolute;
+  left: 299px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .dek {
+  position: absolute;
+  width: 515px;
+  top: 538px;
+  left: 126px;
+  transform: rotate(-0.21deg);
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Original CSS code should be injected here */
+
+/* Semantic refactoring with improved naming and structure */
+.desktop {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.profile-card {
+  background-color: #ffffff;
+  width: 697px;
+  height: 896px;
+}
+
+.profile-content {
+  position: relative;
+  height: 896px;
+  background-color: #fdf7f0;
+  width: 100%;
+}
+
+/* Header styles */
+.header-background img,
+.footer-background img {
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.header-background img {
+  top: 0;
+}
+
+.logo-container {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  z-index: 1;
+  display: flex;
+}
+
+.logo {
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+/* Profile details section */
+.profile-photo {
+  position: absolute;
+  width: 200px;
+  height: 334px;
+  top: 172px;
+  left: 37px;
+  object-fit: cover;
+}
+
+.personal-info {
+  position: absolute;
+  top: 234px;
+  left: 299px;
+}
+
+.student-name {
+  width: 398px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 29px;
+}
+
+.school-name {
+  width: 309px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 52px;
+}
+
+.motto {
+  width: 312px;
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Biography section */
+.bio-text {
+  position: absolute;
+  width: 515px;
+  top: 538px;
+  left: 126px;
+  transform: rotate(-0.21deg);
+  font-family: "K2D-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Footer styles */
+.footer-background img:first-child {
+  top: 826px;
+}
+
+.footer-background img:nth-child(2) {
+  top: 826px;
+}
+
+.footer-background img:nth-child(3) {
+  top: 826px;
+}
